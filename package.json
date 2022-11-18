@@ -1,5 +1,5 @@
 {
-  "name": "t3",
+  "name": "travel-site",
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack",
@@ -11,6 +11,7 @@
   "devDependencies": {
     "autoprefixer": "^10.2.4",
     "css-loader": "^5.0.1",
+    "postcss-import": "^14.0.0",
     "postcss-loader": "^5.0.0",
     "postcss-nested": "^5.0.3",
     "postcss-simple-vars": "^6.0.2",

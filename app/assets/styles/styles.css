@@ -1,12 +1,3 @@
-/* global styles - they trickle down to every element on the page */
-body {
-    font-family: 'Roboto', sans-serif;     /* this is the default font */  
-    color: #333;                         /* this is the default color of the text */
-}
-
-img {                                      /* images are never wider than the web page (can ever only be 100% the width of the pg */
-    max-width: 100%;
-    height: auto;
-}
-/* end global styles */
-
+@import 'normalize.css';
+@import 'base/_global';
+@import 'modules/_large-hero';
